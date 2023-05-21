@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    color: rgb(18, 18, 49);
+    margin-top: 10px;
+}
+body{
+    background-color:#F4F5F7;
+
+}
+.form{
+    z-index: -10;
+    background-color: rgba(73, 166, 233, 0.5);
+}
+.show{
+    z-index: 10;
+    background-color: rgba(73, 166, 233, 0.5);
+}
+.container{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+.addNew{
+    width: 200px;
+    height: 200px;
+    background-color:#438AF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 6px;
+    margin-left: 50px;
+}
+#load{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px dotted rgb(247, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    border-radius: 6px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.form{
+     width: 300px;
+    height: 300px;
+    background-color: #438AF2;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 6px;
+    display: none;
+}
+input{
+    outline: none;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 5px;
+}
+textarea{
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    height: 60px;
+    border-radius: 5px;
+}
+label{
+    margin-top: 10px;
+}
+.post{
+    width: 60px;
+    height: 30px;
+    background-color: #438AF2;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto auto;
+    cursor: pointer;
+}
+.form>.head{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #0c0c0c;
+}
+.form>.head>p{
+    font-size: 18px;
+}
+.allTask{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.task>h3{
+    margin-top: 10px;
+    padding: 10px;
+}
+.border{
+    padding: 10px;
+    border-top: 1px solid rgb(201, 202, 204);
+    display: flex;
+    justify-content: space-between;
+}
+.scroll{
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.task>.scroll>p{
+    color: rgb(29, 26, 26);
+    padding: 10px;
+    font-weight: 30px;
+}
+i{
+    cursor: pointer;
+}
+.display{
+    display: flex;
+}
+.form{
+    position: fixed;
+    left: 35%;
+    z-index: 10;
+}
+.Updation{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 2px;
+
+}
+.form-edit{
+    width: 300px;
+    height: 300px;
+    background-color: #438AF2;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    left: 35%;
+
+}
+.form>.head>p{
+    cursor: pointer;
+}
+.Update{
+    width: 60px;
+    height: 30px;
+    background-color: #438AF2;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto auto;
+    cursor: pointer;
+}
+.form-edit>.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0c0c0c;
+  }
+  .form-edit>.head>p{
+      font-size: 18px;
+  }
+.delete{
+    width: 50px;
+    height: 20px;
+    background-color: #438AF2;
+    color: white;
+    border-radius: 5px;
+    margin: auto auto;
+    cursor: pointer;
+    border: 0;
+}
+.edit{
+    width: 50px;
+    height: 20px;
+    background-color:#438AF2;
+    color: white;
+    border-radius: 5px;
+    margin: auto auto;
+    cursor: pointer;
+    border: 0;
+}
+.fa-plus{
+    font-size: 30px;
+}
+.addNew>p{
+    font-weight: bold;
+}
+.form-edit>.head>p{
+    cursor: pointer;
+}
+button{
+    font-weight: bold;
+}
+.style{
+    font-size: 18px;
+    font-weight: bold;
+    color:#438AF2 ;
+}
